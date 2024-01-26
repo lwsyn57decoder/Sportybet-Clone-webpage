@@ -1,0 +1,878 @@
+
+
+body {
+	margin-left: 30px;
+	
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+	padding: 18px;
+	margin-left: 10px;
+	
+}
+/*
+#phone::placeholder{
+	font-weight: bold;
+	text-transform: uppercase;
+}*/
+.flag {
+	width: 100px;
+	border-color: white;
+}
+
+.header-div {
+	background-color: #FF2400;
+	color: white;
+	height: 140px;
+	border-radius: 6px;
+	width: 1250px;
+}
+
+.login-div {
+	position: relative;
+	left: 730px;
+	bottom: 40px;
+}
+input {
+	padding: 7px;
+}
+#login-button {
+	background-color: brown;
+	width: 60px;
+	border: none;
+	position: relative;
+	right: 4px;
+	color: darkgray;
+	height: 34px;
+}
+
+#register-button {
+	background-color: red;
+	border-color: white;
+	color: white;
+	border-radius: 2px;
+	border: 1px solid whitesmoke;
+}
+
+#checkbox-text {
+	position: relative;
+	bottom: 10px;
+	left: 290px;
+	color: lightpink;
+	font-size: 13px;
+}
+
+#checkbox-tick {
+	position: relative;
+	left: 268px;
+	bottom: 38px;
+
+}
+
+#forget-password {
+	position: relative;
+	left: 406px;
+	bottom: 77px;
+	color: lightpink;
+}
+
+h1 {
+	margin-left: 83px;
+}
+
+#sports {
+	background-color: white;
+	color: red;
+}
+
+.options-div {
+	position: relative;
+	bottom: 117px;
+	left: 18px;
+}
+
+.home-options {
+	position: relative;
+	bottom: 25px;
+	width: 1300px;
+}
+
+.popular-sidebar {
+	background: url(./images/back.jpg);
+	color: white;
+	padding: 15px;
+	position: relative;
+	bottom: 49px;
+	right: 15px;
+	width: 400px;
+	height: 300px  ;
+}
+
+#popular {
+	font-size: 27px;
+	font-weight: bold;
+
+}
+
+.ps-in-sidebar {
+	margin-left: 40px;
+	padding: 6px;
+}
+
+.empty-div {
+	background: url(./images/back.jpg);
+	width: 400px;
+	padding: 15px;
+	position: relative;
+	bottom: 380px;
+	left: 890px;
+	height: 300px;
+}
+
+#today-match {
+	position: relative;
+	left: 400px;
+	bottom: 710px;
+	height: 330px;
+	width: 500px;
+}
+
+.virtual-div {
+	position: relative;
+	bottom: 712px;
+	left: 35px;
+	background-color: #D9DDDC;
+
+}
+
+.inside-div {
+	background-color: white;
+	height: 444px;
+	width: 64%;
+	position: relative;
+	left: 50px;
+	top: 2px;
+	border: 1px solid black;
+}
+.main-page {
+	background-color: #D9DDDC;
+	width: 1300px;
+	height: 1000px;
+	position: relative;
+	bottom: 716px;
+	margin-left: 0;
+
+}
+
+.bestslip-div {
+	background-color: #3E424B;
+	width: 310px;
+	height: 800px;
+	position: relative;
+	bottom: 366px;
+	left: 840px;
+	border: 7px solid #3E424B;
+}
+.mainslips-div {
+	background-color: whitesmoke;
+	position: relative;
+	bottom: 21px;
+	height: 830px;
+
+}
+.mainslips-div ul li {
+	position: relative;
+	right: 40px;
+	padding-inline: 6px;
+	height: 15px;
+}
+
+#betslip2 {
+	color: white;
+	border-bottom: 3px solid green;
+	width: 72px;
+	position: relative;
+	top: 22px;
+	left: 23px;
+}
+
+#number2-bestlip {
+	border-radius: 50%;
+	background-color: #D9DDDC;
+	padding: 2px;
+}
+
+#cashout {
+	position: relative;
+	bottom: 17px;
+	left: 164px;
+	color: white;
+}
+
+#system-slip {
+	position: relative;
+
+}
+
+#football {
+	border-bottom: 5px solid   green;
+}
+
+#armenia-league {
+	background-color: #D9DDDC;
+	position: relative;
+	right: 9px;
+}
+#ukraine-league {
+	background-color: #D9DDDC ;
+	position: relative;
+	right: 17px;
+}
+
+#italy-league {
+	background-color: #D9DDDC ;
+	position: relative;
+	right: 25px;
+}
+
+#russia-league {
+	background-color: #D9DDDC ;
+	width: 100px;
+	position: relative;
+	right: 32px;
+}
+}
+#highlight-h1 {
+	position: relative;
+	top: 12px;
+}
+
+.text-div {
+	position: relative;
+	right: 44px;
+	width: fit-content;
+}
+
+#nigeria-legue {
+	border: 2px solid green;
+}
+
+.realsim-button {
+	position: relative;
+	left: 3px;
+	bottom: 15px;
+
+}
+
+#real-button {
+	border-radius: 20px;
+	padding: 4px;
+	width: 68px;
+	background-color: green;
+	color: white;
+	font-size: 14px;
+	position: relative;
+	left: 23px;
+	border: 1px solid whitesmoke;
+}
+
+#sim-button {
+	border-radius: 20px;
+	padding: 4px;
+	width: 78px;
+	border: 1px solid whitesmoke;
+}
+
+#single-slip {
+	background-color: green;
+	margin-left: 0;
+	width: 28%;
+	border-right: 3px solid #3E424B;
+	
+}
+
+
+#system-slip {
+	background-color: green;
+	width: 26%;
+	border-left: 3px solid #3E424B;
+	position: relative;
+	left: 9px;
+	
+}
+
+#multiple-slip {
+	width: 17%;
+}
+
+#remove-all {
+	position: relative;
+	left: 217px;
+	font-size: 12px;
+	border: 1px solid #D9DDDC;
+	width: 67px;
+	padding: 5px;
+	color: cadetblue;
+}
+
+.slip-div {
+	border-bottom:1px solid #D9DDDC;
+	border-top:1px solid #D9DDDC;
+	font: 12px;
+	margin-left: 6px;
+	height: 105px;
+}
+
+#firsthome {
+
+}
+
+#porto {
+	font-size: 13px;
+}
+
+#firstresult {
+	font-size: 13px;
+}
+
+.x1 {
+	position: relative;
+	left: 229px;
+	bottom: 97px;
+	font-weight: bold;
+}
+
+.city-div {
+	position: relative;
+	bottom: 50px;
+	border-bottom:1px solid #D9DDDC;
+	height: 91px;
+	font-size: 13px;
+}
+
+#over {
+	font-size: 16px;
+}
+
+#odds-2 {
+	position: relative;
+	bottom: 75px;
+	left: 230px;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+#stake-amount {
+	width: 70px;
+	height: 8px;
+	border-radius: 3px;
+	border:2px solid #D9DDDC;
+}
+
+.stake-amount-div {
+	border-bottom:1px solid #D9DDDC;
+	position: relative;
+	bottom: 46px;
+}
+
+#sporty-insure {
+	background-color: green;
+	color: white;
+	width: 93px;
+	padding: 8px;
+	width: 40%;
+}
+
+#i-p {
+	position: relative;
+	left: 150px;
+	bottom: 45px;
+	color: white;
+	font-size: 16px;
+	background-color: #B2BEB5;
+	border-radius: 50%;
+	padding: 3px;
+	width: 11px;
+	height: 17px;
+}
+
+.last-slip-div {
+	position: relative;
+	bottom: 45px;
+}
+
+.checkbox-flex {
+	position: relative;
+	bottom: 40px;
+
+}
+
+#f-p {
+	position: relative;
+	bottom: 64px;
+	left: 26px;
+	background-color: #B2BEB5;
+	color: white;
+	font-size: 33px;
+	width: 23px;
+}
+
+#flex-p {
+	position: relative;
+	bottom: 123px;
+	left: 54px;
+	color: #B2BEB5;
+}
+
+#input-box {
+	width: 25px;
+	height: 15px;
+	color: #B2BEB5;
+}
+
+.calc-odds-div {
+	position: relative;
+	bottom: 150px;
+}
+
+#accept-changes {
+	text-align: center;
+	color: white;
+	background-color: green;
+	padding: 13px;
+	width: 274px;
+}
+
+#book-bet {
+	color: green;
+}
+
+#print {
+	color: green;
+	position: relative;
+	left: 250px;
+	bottom: 36px;
+}
+
+.odds {
+	position: relative;
+	left: 58px;
+}
+
+.odds-title {
+	border-top: 2px solid #B2BEB5;
+	border-bottom: 2px solid #B2BEB5;
+	font-size: 13px;
+	height: 39px;
+	position: relative;
+	left: 12px;
+}
+
+#date-span {
+	font-size: 18px;
+	font-weight: bold;
+	
+}
+
+#predict-options {
+	color: #B2BElive-buttons-divB5;
+	position: relative;
+	left: 60px;
+}
+
+#price1 {
+	position: relative;
+	left: 175px;
+	bottom: 65px;
+	background-color: green;
+	margin-left: 26px;
+	width: 250px;
+	height: 55px;
+	border-radius: 8px;
+}
+
+#pri {
+	border-right: 1px solid white;
+	width: 20px;
+	text-align: center;
+}
+
+.select-buttons1-div {
+	position: relative;
+	left: 260px;
+	bottom: 50px;
+	padding: 3px;
+}
+
+#first-price-button1 {
+	background-color: green;
+	color: white;
+	padding: 10px;
+	width: 65px;
+	border: none;
+	border-bottom-left-radius: 6px;
+	border-top-left-radius: 6px;
+}
+
+#second-price-button1 {
+	background-color: green;
+	color: white;
+	padding: 10px;
+	width: 63px;
+	border: none;
+
+}
+
+#select-overs1 {
+	background-color: green;
+	color: white;
+	padding: 10px;
+	width: 65px;
+	border: none;
+	border-bottom-left-radius: 6px;
+	border-top-left-radius: 6px;
+}
+#third-price-button1 {
+	background-color: green;
+	color: white;
+	padding: 10px;
+	width: 65px;
+	border: none;
+	border-bottom-right-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+#overs-price-button1 {
+	background-color: green;
+	color: white;
+	padding: 10px;
+	width: 63px;
+	border: none;
+
+}
+
+#unders-price-button1 {
+	background-color: green;
+	color: white;
+	padding: 10px;
+	width: 63px;
+	border: none;
+	border-bottom-right-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+#first-more {
+	position: relative;
+	left: 420px;
+	bottom: 47px;
+	font-weight: bold;
+} 
+
+.first-team-div {
+	border-bottom: 2px solid #B2BEB5;
+	height: 55px;
+}
+
+#first-id-code {
+	color: #B2BEB5;
+	font-size: 14px;
+}
+
+#first-more-arrow {
+	color: green;
+	font-weight: bolder;
+	font-size: 23px;
+}
+
+.select-buttons2-div {
+	position: relative;
+	left: 260px;
+	bottom: 50px;
+	padding: 3px;
+
+}
+
+#first-price-button2 {
+	background-color: green;
+	color: white;
+	padding: 10px;
+	width: 65px;
+	border: none;
+	border-bottom-left-radius: 6px;
+	border-top-left-radius: 6px;
+}
+
+#second-price-button2 {
+	background-color: green;
+	color: white;
+	padding: 10px;
+	width: 63px;
+	border: none;
+
+}
+
+#select-overs2 {
+	background-color: green;
+	color: white;
+	padding: 10px;
+	width: 65px;
+	border: none;
+	border-bottom-left-radius: 6px;
+	border-top-left-radius: 6px;
+}
+#third-price-button2 {
+	background-color: green;
+	color: white;
+	padding: 10px;
+	width: 65px;
+	border: none;
+	border-bottom-right-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+#overs-price-button2 {
+	background-color: green;
+	color: white;
+	padding: 10px;
+	width: 63px;
+	border: none;
+
+}
+
+#unders-price-button2 {
+	background-color: green;
+	color: white;
+	padding: 10px;
+	width: 63px;
+	border: none;
+	border-bottom-right-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+.second-team-div {
+	position: relative;
+	bottom: 90px;
+	height: 55px;	
+}
+
+.odds {
+	width: 800px;
+}
+
+.live-games-div {
+	position: relative;
+	right: 850px;
+	bottom: 530px;
+	background-color: black;
+	color: white;
+	height: 590px;
+	width: 830px;
+}
+
+#more-sports {
+	border: none;
+}
+
+#more-sports2 {
+	background-color: black;
+	border: none;
+	color: white;
+}
+
+#international {
+	margin-left: 12px;
+	border-top: 1px solid #B2BEB5;
+	border-bottom: 1px solid #B2BEB5;
+	padding: 10px;
+}
+
+.live-team-div {
+	border-bottom: 1px solid #B2BEB5;
+	height: 50px;
+	position: relative;
+	bottom: 46px;
+	left: 11px;
+}
+
+.next-goals-div {
+	position: relative;
+	bottom: 50px;
+	left: 394px;
+	font-size: 13px;
+	color: #B2BEB5;
+}
+
+.live-no-goal-div {
+	background-color: #383B39;
+	width: 170px;
+	bottom: 60px;
+}
+
+#header-in-live {
+	position: relative;
+	right: 41px;
+	background-color: #383B39;
+	padding: 1px;
+}
+
+#header2-in-live {
+	position: relative;
+	left: 28px;
+	background-color: #383B39;
+	margin-right: 72px;
+	padding: 1px;
+}
+
+.live-buttons-div {
+	position: relative;
+	left: 260px;
+	bottom: 50px;
+	padding: 3px;
+	width: 630px;	
+}
+
+#no-goal-button {
+	background-color: green;
+	color: white;
+	padding: 10px;
+	width: 63px;
+	border: none;	
+}
+
+#live-more {
+	position: relative;
+	left: 460px;
+	bottom: 47px;
+	font-weight: bold;
+}
+
+.live-team3-div {
+	border-bottom: 1px solid #B2BEB5;
+	height: 50px;
+	position: relative;
+	bottom: 100px;
+}
+
+.live-div2 {
+	position: relative;	
+	bottom: 116px;
+	border-top: none;
+	right: 9px;
+}
+
+#view-all-button {
+	width: 800px;
+	height: 50px;
+	background-color: #383B39;
+	color: white;
+	position: relative;
+	bottom: 85px;
+}
+
+#horse-images {
+	position: relative;
+	top: 90px;
+}
+
+.auto-image {
+	position: relative;
+	bottom: 106px;
+}
+
+.main-footer-div {
+	background-color: #383B39;
+	height: 400px;
+	width: 1100px;
+	position: relative;
+	right: 50px;
+}
+
+#teams-pic {
+	width: 250px;
+	position: relative;
+	left: 80px;
+}
+
+
+#coat-of-arms {
+	width: 50px;
+
+}
+
+.paybill-div {
+	position: relative;
+	left: 350px;
+	bottom: 100px;
+}
+
+#ussd-code {
+	font-size: 25px;
+
+}
+
+.terms-conditions-div {
+	position: relative;
+	left: 500px;
+	bottom: 220px;
+}
+
+.terms-in-div {
+	color:#B2BEB5;
+	font-size: 14px;
+}
+
+.how-to-play {
+	position: relative;
+	bottom: 380px;
+	left: 700px;
+}
+
+.how-to-play-in-div {
+	color:#B2BEB5;
+	font-size: 14px;
+}
+
+.connect-us-div {
+	position: relative;
+	bottom: 583px;
+	left: 850px;
+}
+
+.connect-in-div {
+	color:#B2BEB5;
+	font-size: 14px;
+}
+
+.inside-main-footer-div {
+	position: relative;
+	right: 35px;
+}
+
+.age-limit-div {
+	border-top: 1px solid #B2BEB5 ;
+	position: relative;
+	bottom: 460px;
+}
+
+#psychologically-harmful {
+	margin-left: 50px;
+	font-size: 13px
+}
+
+#licensed {
+	position: relative;
+	left: 550px;
+	bottom: 46px;
+	font-size: 13px;
+}
+
+.networks-div {
+	background-color: black;
+	height: 80px;
+	border-radius: 6px;
+}

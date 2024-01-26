@@ -1,0 +1,422 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styler.css">
+	<script type="text/javascript" src="worker.js"></script>
+</head>
+<body>
+	<div class="header-div">
+	<h1>SportyBet<img src="images/flag.png" class="flag"> </h1>
+	
+
+	<div class="login-div">
+		<input type="text" id="phone" name="number" placeholder="  Mobile number">
+		<input type="password" name="password" placeholder="Password">
+		<input type="button" name="login" value="Login" id="login-button">
+		<input type="button" name="register" value="Register" id="register-button">
+		<div class="checkbox">
+			<p id="checkbox-text">Keep me signed in</p>
+			<input type="checkbox" name="checkbox" value="Keep me signed in" id="checkbox-tick">
+			<p id="forget-password">Forget password?</p>
+		</div>
+	</div>
+
+	<div class="options-div">
+		<ul>
+			<li id="sports">Sports</li>
+			<li>Casino</li>
+			<li>Live Betting</li>
+			<li>Instant Virtuals</li>
+			<li>Scheduled Virtuals</li>
+			<li>Jackpot</li>
+			<li>Livescore</li>
+			<li>Promotions</li>
+			<li>App</li>
+			<li>GMT +00:00</li>
+		</ul>
+	</div>
+	</div>
+
+	<div class="home-options">
+		<ul>
+			<li>Home</li>
+			<li>Football</li>
+			<li>vFootball</li>
+			<li>Basketball</li>
+			<li>Tennis</li>
+			<li>Table Tennis</li>
+			<li>eFootball</li>
+			<li>American Football</li>
+			<li>Ice Hockey</li>
+			<li>More Sports</li>
+		</ul>
+	</div>
+
+	<div class="popular-sidebar">
+		<div class="ps-in-sidebar">
+		<p id="popular">Popular</p>
+		<p>Today's Football</p>
+		<p>Upcoming Games</p>
+		<p>England Premier League</p>
+		<p>Bundesliga</p>
+		<p>Laliga</p>
+		<p>Serie A</p>
+		</div>
+	</div>
+
+	<div class="empty-div">
+		
+	</div>
+
+
+	<img src="images/todaysmatch.png" id="today-match">
+
+	<div class="virtual-div">
+	
+	<img src="images/fcfcg.png">
+	</div>
+
+	<div class="main-page">
+		<div class="inside-div">
+
+			<div class="text-div">
+			<h1 id="highlight-h1">Highlights</h1>
+			<ul id="list-div">
+				<li id="football">Football</li>
+				<li>vFootball</li>
+				<li>Basketball</li>
+				<li>Tennis</li>
+				<li>Table Tennis</li>
+				<li>
+					<select id="more-sports">
+						<option>More Sports</option>
+						<option>Football</option>
+						<option>vFootball</option>
+						<option>Basketball</option>
+						<option>Tennis</option>
+						<option>Table </option>
+						<option>Table Tennis</option>
+						<option>F1 Racing</option>
+					</select>
+				</li>
+				<li>Filter</li>
+			</ul>
+			<ul class="leagues">
+				<li id="nigeria-legue">Nigeria <br><strong> Premier League</strong></li>
+				<li id="armenia-league">Armenia <br><strong> Premier League</strong> </li>
+				<li id="ukraine-league">Ukraine <br><strong> Premier League</strong></li>
+				<li id="italy-league">Italy <br><strong> Campionato P...</strong></li>
+				<li id="russia-league">Russia <br><strong>1.Liga</strong></li>
+
+			</ul>
+			<div class="odds"> 
+			<div class="odds-title">
+				<p><span id="date-span">06/11 Monday</span> &emsp; &emsp; &emsp; &emsp;  &emsp; &emsp;<span id="predict-options">&emsp; 1 &nbsp; &nbsp; &nbsp; &emsp; &emsp;x &nbsp; &emsp; &emsp; &nbsp; &nbsp; 2 &emsp; &emsp; &emsp; &emsp; Goals &emsp; &emsp; &emsp; Over &emsp; &emsp; Under </span></p>
+			</div>
+			<div class="first-team-div">
+				<p>
+					15:00  &emsp; &emsp;  Bayelsa United FC <br> <span id="first-id-code">ID: 19314</span>  &nbsp; &nbsp;  Lobi Stars
+				</p>
+				<div class="select-buttons1-div">
+					<button id="first-price-button1">1.63</button>
+					<button id="second-price-button1">3.60</button>
+					<button id="third-price-button1">4.70</button>
+					<select id="select-overs1">
+						<option>1.5</option>
+						<option>2.5</option>
+						<option>3.5</option>
+						<option>4.5</option>
+						<option>5.5</option>
+					</select> 
+					<button id="overs-price-button1">2.15</button>
+					<button id="unders-price-button1">1.60</button>
+
+					<p id="first-more">&emsp; +32 &emsp;<span id="first-more-arrow">></span></p>
+				</div>
+				<div class="second-team-div">
+				<p>
+					15:00  &emsp; &emsp;  Sporting Lagos FC <br> <span id="first-id-code">ID: 19069</span>  &nbsp; &nbsp;  Kano Pillars FC
+				</p>
+				<div class="select-buttons2-div">
+					<button id="first-price-button2">1.68</button>
+					<button id="second-price-button2">3.33</button>
+					<button id="third-price-button2">4.80</button>
+					<select id="select-overs2">
+						<option>1.5</option>
+						<option>2.5</option>
+						<option>3.5</option>
+						<option>4.5</option>
+						<option>5.5</option>
+					</select> 
+					<button id="overs-price-button2">1.47</button>
+					<button id="unders-price-button2">2.45</button>
+
+					<p id="first-more">&emsp; +31 &emsp;<span id="first-more-arrow">></span></p>
+				</div>
+			
+			</div>
+
+
+			</div>
+
+			
+			
+
+			</div>
+		</div>
+		<div class="bestslip-div">
+			
+			<p id="betslip2">Bestslip <span id="number2-bestlip">2</span></p>
+			<p id="cashout">Cashout</p>
+			<div class="realsim-button">
+			<button id="real-button">Real</button>
+			<button id="sim-button">Sim</button>
+			</div>
+			<div class="mainslips-div">
+				<ul>
+					<li id="single-slip">Single</li>
+					<li id="multiple-slip">Multiple</li>
+					<li id="system-slip">System</li>
+				</ul>
+				<p id="remove-all">Remove All</p>
+				<div class="slip-div">
+					<p id="firsthome">Home</p>
+					<p id="porto">Porto v Royal Antwerp FC</p>
+					<p id="firstresult">1x2</p>
+					<div class="x1" >
+						<p>x</p>
+						<p>1.38</p>
+					</div>
+					<div class="city-div">
+						<p id="over">Over 2.5</p>
+						<p id="man-city">Man City v Young Boys Bern</p>
+						<p id="o/u">Over/Under</p>
+						<div id="odds-2">
+							<p>x</p>
+							<p>1.31</p>
+						</div>
+					</div>
+					<div class="stake-amount-div">
+						<p>Type &emsp; &emsp; &emsp; No. &emsp; &emsp; &emsp; Stake(GHS) </p>
+						<p>Multiple &emsp; &emsp; &emsp; 1 &emsp; &emsp; <input type="text" name="" placeholder="1" id="stake-amount">  </p>
+
+					</div>
+					<div class="last-slip-div">
+						<p id="sporty-insure">SportyInsure</p>
+						<p id="i-p">i</p>
+						<div class="checkbox-flex">
+						<input type="checkbox" name="flex" id="input-box" >
+						<p id="f-p">F</p>
+						<p id="flex-p">Flexible</p>
+						</div>
+						<div class="calc-odds-div">
+						<p>Odds &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 1.81 </p>
+						<p>Total Stake &emsp;  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 1.00 </p>
+						<p>Max bonus (GHS) &emsp; &nbsp;  &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; 0.04 </p>
+						<p><strong>Potential Win &emsp; &emsp; &emsp;  &emsp; &emsp; &emsp; &emsp; &emsp; 1.85</strong> </p>
+
+						<div class="accept-changes-div">
+							<p id="accept-changes">Accept Changes</p>
+							<p id="book-bet">Book Bet</p>
+							<p id="print">Print</p>
+						</div>
+						</div>
+						<div>
+							<img class="auto-image" src="images/auto.png">
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="live-games-div">
+				<h1>Live Betting</h1>
+				<ul id="list-div">
+				<li id="football">Football</li>
+				<li>vFootball</li>
+				<li>Basketball</li>
+				<li>Tennis</li>
+				<li>Table Tennis</li>
+				<li>
+					<select id="more-sports2">
+						<option>More Sports</option>
+						<option>Football</option>
+						<option>vFootball</option>
+						<option>Basketball</option>
+						<option>Tennis</option>
+						<option>Table </option>
+						<option>Table Tennis</option>
+						<option>F1 Racing</option>
+					</select>
+				</li>
+			</ul>
+			<div class="live-divs">
+				<p id="international">International Clubs AFC Champions League </p>
+				<div class="next-goals-div">
+					<p>3 Way  &emsp; &nbsp;  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Next Goals <br> <span id="header-in-live">1 &emsp; &emsp; &emsp;x  &emsp; &emsp; &emsp;2</span> <span id="header2-in-live">1 &emsp; &emsp; &emsp;No Goal  &emsp; &emsp; &emsp;2</span> </p>					
+				</div>
+				<div class="live-team-div">
+				<p>
+					45:00  &emsp;  FC Nasaf  &nbsp;&nbsp;&emsp; &emsp; &emsp; &emsp; &emsp; 0 <br> <span id="first-id-code">HT</span>  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;  Sharjah FC &emsp; &emsp; &emsp; &emsp; &emsp; 1
+				</p>
+				<div class="live-buttons-div">
+					<button id="first-price-button1">4.70</button>
+					<button id="second-price-button1">3.10</button>
+					<button id="third-price-button1">1.85</button>
+					<select id="select-overs1">
+						<option>1.5</option>
+						<option>2.5</option>
+						<option>3.5</option>
+						<option>4.5</option>
+						<option>5.5</option>
+					</select> 
+					<button id="overs-price-button1">1.75</button>
+					<button id="no-goal-button">3.85</button>
+					<button id="unders-price-button1">3.95</button>
+
+					<p id="live-more">&emsp; +104 &nbsp;<span id="first-more-arrow">></span></p>
+				</div>
+
+			</div>
+			<div class="live-team-div">
+				<p>
+					45:00  &emsp; Mumbai City  &nbsp;&nbsp;&emsp; &emsp; &emsp; &emsp; 0 <br> <span id="first-id-code">HT</span>  &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;   Al Hilal  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 0
+				</p>
+				<div class="live-buttons-div">
+					<button id="first-price-button1">12.50</button>
+					<button id="second-price-button1">4.35</button>
+					<button id="third-price-button1">1.32</button>
+					<select id="select-overs1">
+						<option>1.5</option>
+						<option>2.5</option>
+						<option>3.5</option>
+						<option>4.5</option>
+						<option>5.5</option>
+					</select> 
+					<button id="overs-price-button1">2.25</button>
+					<button id="no-goal-button">1.75</button>
+					<button id="unders-price-button1">2.95</button>
+
+					<p id="live-more">&emsp; +96 &nbsp;<span id="first-more-arrow">></span></p>
+				</div>
+				<div class="live-team3-div">
+				<p>
+					45:00  &emsp;  Mazandaran FC  &nbsp;&nbsp;&emsp; &emsp; &emsp; 0 <br> <span id="first-id-code">HT</span>  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Navbahor FC &emsp; &emsp; &emsp; &emsp;   2
+				</p>
+				<div class="live-buttons-div">
+					<button id="first-price-button1">45.00</button>
+					<button id="second-price-button1">10.58</button>
+					<button id="third-price-button1">1.05</button>
+					<select id="select-overs1">
+						<option>2.5</option>
+						<option>3.5</option>
+						<option>4.5</option>
+						<option>5.5</option>
+					</select> 
+					<button id="overs-price-button1">1.18</button>
+					<button id="no-goal-button">5.25</button>
+					<button id="unders-price-button1">2.95</button>
+
+					<p id="live-more">&emsp; +61 &nbsp;<span id="first-more-arrow">></span></p>
+				</div>
+
+			</div>
+			<div class="live-div2">
+				<p id="international">Russia Premier League </p>
+				<div class="next-goals-div">
+					<p>3 Way  &emsp; &nbsp;  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Next Goals <br> <span id="header-in-live">1 &emsp; &emsp; &emsp;x  &emsp; &emsp; &emsp;2</span> <span id="header2-in-live">1 &emsp; &emsp; &emsp;No Goal  &emsp; &emsp; &emsp;2</span> </p>					
+				</div>
+				<div class="live-team-div">
+				<p>
+					67:58  &emsp;  FC Ural Yk &emsp; &emsp; &emsp; &emsp; &emsp; 0  <br> <span id="first-id-code">H2</span>  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; FK Rubin Kazan &emsp; &emsp; &emsp;  &nbsp; 1
+				</p>
+				<div class="live-buttons-div">
+					<button id="first-price-button1">4.70</button>
+					<button id="second-price-button1">3.10</button>
+					<button id="third-price-button1">1.85</button>
+					<select id="select-overs1">
+						<option>1.5</option>
+						<option>2.5</option>
+						<option>3.5</option>
+						<option>4.5</option>
+						<option>5.5</option>
+					</select> 
+					<button id="overs-price-button1">1.75</button>
+					<button id="no-goal-button">3.85</button>
+					<button id="unders-price-button1">3.95</button>
+
+					<p id="live-more">&emsp; +104 &nbsp;<span id="first-more-arrow">></span></p>
+				</div>
+				<button id="view-all-button">View All  <span id="first-more-arrow"> &nbsp;></span></button>
+
+			</div>
+			<img id="horse-images" src="images/horsedown.jpg">
+			</div>
+			<div class="main-footer-div">
+				<div class="inside-main-footer-div">
+				<h1>SportyBet<img src="images/flag.png" class="flag"> </h1> 
+				<img id="teams-pic" src="images/teams.png">
+				<div class="paybill-div" >
+				<p id="paybill">
+					&emsp; &nbsp; Paypill: <br>
+				</p>  
+				<p><span id="ussd-code">*711*222#</span> <br><img src="images/coat-of-arms.png" id="coat-of-arms"> </p>
+				</div>
+
+				<div class="terms-conditions-div">
+					<h3>Sporty Ghana</h3>
+					<div class="terms-in-div">
+					>&emsp; About us <br>
+					>&emsp;Terms and Conditions <br>
+					>&emsp;Responsible <br> Gambling <br>
+					>&emsp;Privacy Policy <br>
+					>&emsp;Sporty Group <br>
+					</div>
+				</div>
+
+				<div class="how-to-play">
+					<h3>How to play</h3>
+					<div class="how-to-play-in-div">
+					>&emsp;FAQ <br>
+					>&emsp;Sports <br>
+					>&emsp;Live Betting <br>
+					>&emsp;Games <br>
+					>&emsp;Live Games <br>
+					>&emsp;Scheduled <br> Virtuals <br>
+					>&emsp;Jackpot <br>
+					>&emsp;Others
+					</div>
+				</div>
+
+				<div class="connect-us-div">
+					<h3>Connect with Us</h3>
+					<div class="connect-in-div">
+						Telephone: 0555629934 | <br> 0206528466 <br>
+						Email: lawsonwornyo57@gmail.com
+
+					</div>
+				</div>
+				</div>
+
+				<div class="age-limit-div">
+					<p id="psychologically-harmful">Age 18 and above only. Play Responsible. Betting is addictive and can be <br> psychologically harmful.</p>
+
+					<p id="licensed">
+						SportyBet Ghana is licensed by the Gaming Commission of Ghana under the <br> Gaming Act,2006 (Act, 721).
+					</p>
+
+					<div class="networks-div">
+						<img src="images/payments.png">
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+		
+	</div>
+
+</body>
+</html>
